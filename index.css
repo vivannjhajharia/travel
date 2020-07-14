@@ -110,3 +110,46 @@ li a:hover {
     font-weight: 1000;
     padding-left: 50px;
 }
+
+.place-card-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-left: 50px;
+}
+
+.place-card {
+    width: 350px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.place-card>.header-img>img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.meta-info {
+    font-size: 15px;
+    margin: 10px 0px;
+}
+
+.place-title {
+    font-size: 20px;
+    margin: 0;
+}
+
+.meta-price {
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+.meta-rating {
+    font-size: 12px;
+    margin: 10px 0px;
+    display: flex;
+}
+
+.meta-rating>.tiny {
+    font-size: 12px;
+}
