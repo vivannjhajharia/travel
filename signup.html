@@ -7,19 +7,9 @@
     <title>Sign-up</title>
     <link rel="icon" type="image/png"
         href="https://www.freeiconspng.com/uploads/travel-guide-icon-map-ticket-travel-icon-17.png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-    </script>
-    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap">
     <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="nav.css">
 </head>
 
 <body>
@@ -29,6 +19,40 @@
         <li><a href="signup.html">Sign-up</a></li>
         <li><a href="index.html">Home</a></li>
     </ul>
+    <div class="form-container">
+        <div class="form">
+            <div class="form-header">
+                <p class="form-title">Sign-up</p>
+            </div>
+            <div class="form-body">
+                <div class="form-group">
+                    <p class="input-text">Name</p>
+                    <input id="name" type="text">
+                </div>
+                <div class="form-group">
+                    <p class="input-text">E-mail ID</p>
+                    <input id="email" type="text">
+                </div>
+                <div class="form-group">
+                    <p class="input-text">Password</p>
+                    <input id="pass" type="password">
+                </div>
+                <div class="form-group">
+                    <p class="input-text">Confirm Password</p>
+                    <input id="con-pass" type="password">
+                </div>
+                <div class="form-group">
+                    <p class="input-text">Date of Birth</p>
+                    <input type="date">
+                </div>
+                <div class="form-footer">
+                    <div class="form-group d-flex-end">
+                        <button class="signup-btn">Sign-up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
