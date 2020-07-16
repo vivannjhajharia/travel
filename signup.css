@@ -1,0 +1,10 @@
+body {
+    padding-top: 0;
+    font-family: "Lexend Deca", sans-serif;
+    max-width: 100%;
+    height: 100vh;
+    background-image: url(https://unsplash.com/photos/SHA85I0G8K4/download?force=true);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
