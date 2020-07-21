@@ -8,3 +8,52 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
 }
+
+.form-container{
+    margin: auto;
+    display: block;
+    width: 400px;
+    padding-top: 5%;
+}
+
+.form{
+    max-width: 370px;
+    display: flex;
+    border-radius: 5px;
+    background: #fff;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    text-align: center;
+}
+
+.form-title{
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.form-group{
+    max-width: 100%;
+    flex-basis: 50%;
+}
+
+.form-group > input{
+    width: 90%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.signup-btn{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    background: #ff5a5f;
+    padding: 10px 20px;
+}

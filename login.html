@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-up</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="nav.css">
     <link rel="icon" type="image/png"
         href="https://www.freeiconspng.com/uploads/travel-guide-icon-map-ticket-travel-icon-17.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap">
-    <link rel="stylesheet" href="signup.css">
-    <link rel="stylesheet" href="nav.css">
     <script src="signup.js"></script>
 </head>
-
 <body>
     <ul>
         <li class="name">Travel</li>
@@ -20,17 +18,13 @@
         <li><a href="signup.html">Sign-up</a></li>
         <li><a href="index.html">Home</a></li>
     </ul>
-    <div class="form-container">
+    <div style="padding-top: 10%;" class="form-container">
         <div class="form">
             <div class="form-header">
-                <p class="form-title">Sign-up</p>
+                <p class="form-title">Login</p>
             </div>
             <br>
             <div class="form-body">
-                <div class="form-group">
-                    <p class="input-text">Name</p>
-                    <input id="name" type="text">
-                </div>
                 <div class="form-group">
                     <p class="input-text">E-mail ID</p>
                     <input id="email" type="text">
@@ -39,18 +33,10 @@
                     <p class="input-text">Password</p>
                     <input id="pass" type="password">
                 </div>
-                <div class="form-group">
-                    <p class="input-text">Confirm Password</p>
-                    <input id="conpass" type="password">
-                </div>
-                <div class="form-group">
-                    <p class="input-text">Date of Birth</p>
-                    <input type="date">
-                </div>
                 <br>
                 <div class="form-footer">
                     <div class="form-group">
-                        <button onclick="check()" class="signup-btn">Sign-up</button>
+                        <button onclick="check2()" class="signup-btn">Login</button>
                     </div>
                 </div>
             </div>
@@ -58,5 +44,4 @@
     </div>
     <br>
 </body>
-
 </html>
