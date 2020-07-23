@@ -12,6 +12,10 @@ function check(){
     {
         alert("Passwords do not match");
     }
+    if((name != "" && email != "" && pass != "" && conpass != "")&&(pass == conpass))
+    {
+        alert("Sign-up successful!");
+    }
 }
 
 function check2(){
